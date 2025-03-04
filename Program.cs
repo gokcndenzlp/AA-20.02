@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+<<<<<<< HEAD
 using System.Linq;
 
 class Program
@@ -36,10 +37,45 @@ class Program
             array[i] = rand.Next(1, 10000);
         }
         return array;
+=======
+
+class Program
+{
+    // Bubble Sort Algoritması
+    static void BubbleSort(int[] arr)
+    {
+        int n = arr.Length;
+        for (int i = 0; i < n - 1; i++)
+        {
+            for (int j = 0; j < n - i - 1; j++)
+            {
+                if (arr[j] > arr[j + 1])
+                {
+                    // Elemanları yer değiştir
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    // Rastgele bir dizi oluştur
+    static int[] GenerateRandomArray(int size)
+    {
+        Random rand = new Random();
+        int[] arr = new int[size];
+        for (int i = 0; i < size; i++)
+        {
+            arr[i] = rand.Next(1, 10001); // 1 ile 10000 arasında rastgele sayılar
+        }
+        return arr;
+>>>>>>> f4d4ebcecbf5e9bcb430b7040e23d8cc64c55fd6
     }
 
     static void Main()
     {
+<<<<<<< HEAD
         int[] sizes = { 100, 500, 1000, 2000, 5000 };
         int k = 10;
 
@@ -56,6 +92,33 @@ class Program
             int kthElement2 = FindKthElement_Insertion((int[])array.Clone(), k);
             stopwatch.Stop();
             Console.WriteLine($"Array Size: {size}, Insertion Method Time: {stopwatch.ElapsedMilliseconds} ms, Kth Element: {kthElement2}");
+=======
+        // Farklı dizi boyutları
+        int[] sizes = { 100, 500, 1000, 5000, 10000 };
+
+        // Zaman ölçümü için Stopwatch kullanılıyor
+        Stopwatch stopwatch = new Stopwatch();
+
+        foreach (var size in sizes)
+        {
+            // Rastgele dizi oluştur
+            int[] arr = GenerateRandomArray(size);
+
+            // Zamanı başlat
+            stopwatch.Start();
+
+            // Bubble Sort çalıştır
+            BubbleSort(arr);
+
+            // Zamanı durdur
+            stopwatch.Stop();
+
+            // Geçen süreyi yazdır
+            Console.WriteLine($"Dizi Boyutu: {size}, Süre: {stopwatch.ElapsedMilliseconds} ms");
+
+            // Stopwatch'ı sıfırla
+            stopwatch.Reset();
+>>>>>>> f4d4ebcecbf5e9bcb430b7040e23d8cc64c55fd6
         }
     }
 }
