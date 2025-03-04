@@ -1,0 +1,14 @@
+C:\Users\gokce\source\repos\KthSelection\bin\Debug\net9.0\KthSelection.exe
+C:\Users\gokce\source\repos\KthSelection\bin\Debug\net9.0\KthSelection.deps.json
+C:\Users\gokce\source\repos\KthSelection\bin\Debug\net9.0\KthSelection.runtimeconfig.json
+C:\Users\gokce\source\repos\KthSelection\bin\Debug\net9.0\KthSelection.dll
+C:\Users\gokce\source\repos\KthSelection\bin\Debug\net9.0\KthSelection.pdb
+C:\Users\gokce\source\repos\KthSelection\obj\Debug\net9.0\KthSelection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gokce\source\repos\KthSelection\obj\Debug\net9.0\KthSelection.AssemblyInfoInputs.cache
+C:\Users\gokce\source\repos\KthSelection\obj\Debug\net9.0\KthSelection.AssemblyInfo.cs
+C:\Users\gokce\source\repos\KthSelection\obj\Debug\net9.0\KthSelection.csproj.CoreCompileInputs.cache
+C:\Users\gokce\source\repos\KthSelection\obj\Debug\net9.0\KthSelection.dll
+C:\Users\gokce\source\repos\KthSelection\obj\Debug\net9.0\refint\KthSelection.dll
+C:\Users\gokce\source\repos\KthSelection\obj\Debug\net9.0\KthSelection.pdb
+C:\Users\gokce\source\repos\KthSelection\obj\Debug\net9.0\KthSelection.genruntimeconfig.cache
+C:\Users\gokce\source\repos\KthSelection\obj\Debug\net9.0\ref\KthSelection.dll
